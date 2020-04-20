@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'sportsaholics'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_82928456a7b3468abf2ef373fc4a39d9 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_571137702f4749f087b534ed1b9631c0 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
